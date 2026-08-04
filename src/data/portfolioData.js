@@ -1,25 +1,25 @@
 const portfolioData = {
   name: "Anjali R Nair",
 
-  role: "Full Stack Developer",
+  role: "Software Engineer",
 
   tagline:
     "Building responsive, scalable web applications with React, Node.js and MongoDB.",
 
   description:
-    "Passionate about creating clean, user-friendly web applications while continuously learning modern technologies.",
+    "Software Engineer focused on building scalable web applications using React, Node.js, Express, and MySQL. Passionate about clean architecture, intuitive user experiences, and continuous learning.",
 
   location: "Kerala, India",
 
   email: "anjaleiirnair@gmail.com",
 
-  github: "https://github.com/YOUR_USERNAME",
+  github: "https://github.com/anjalei",
 
-  linkedin: "https://linkedin.com/in/YOUR_LINKEDIN",
+  linkedin: "https://www.linkedin.com/in/anjalirnair/",
 
   resume: "/resume.pdf",
 
-  heroImage: "/images/profile.png",
+  heroImage: "/images/profile.jpeg",
 };
 
 export default portfolioData;
