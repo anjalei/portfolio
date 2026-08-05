@@ -9,22 +9,18 @@ const About = () => {
 
         <div className="max-w-4xl mx-auto">
           <p className="text-lg leading-9 text-gray-600">
-            I'm a Software Engineer specializing in full-stack web development,
-            with experience building scalable backend systems using Node.js,
-            Express, MySQL, and AWS, along with responsive frontend applications
-            in React.
+            I'm a full stack developer building production web applications —
+            currently working across 3 CRM portals at Soft7, handling everything
+            from dashboard UI to RBAC authentication to API integration. My
+            stack centers on React, Next.js, and TypeScript on the frontend, and
+            Node.js, Express, and SQL/NoSQL databases on the backend, with
+            hands-on experience deploying to AWS. Outside of work, I enjoy
+            sketching, exploring UI design, and picking up new tools as they
+            come up.
           </p>
 
-          <p className="mt-8 text-lg leading-9 text-gray-600">
-            I enjoy designing scalable backend systems, creating intuitive user
-            interfaces and continuously learning technologies that help build
-            reliable products.
-          </p>
+          
 
-          <p className="mt-8 text-lg leading-9 text-gray-600">
-            Outside coding, I enjoy sketching, exploring UI design and learning
-            new technologies.
-          </p>
         </div>
       </Container>
     </section>

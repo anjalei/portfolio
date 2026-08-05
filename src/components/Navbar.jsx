@@ -8,7 +8,7 @@ const Navbar = () => {
           <div>
             <h1 className="text-2xl font-bold">Anjali</h1>
 
-            <p className="text-xs text-gray-500"> Software Engineer</p>
+            <p className="text-xs text-gray-500"> Full Stack Developer</p>
           </div>
 
           <ul className="hidden md:flex items-center gap-8 text-gray-700">

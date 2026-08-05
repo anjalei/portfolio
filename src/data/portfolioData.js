@@ -1,13 +1,13 @@
 const portfolioData = {
   name: "Anjali R Nair",
 
-  role: "Software Engineer",
+  role: "Full stack developer",
 
   tagline:
     "Building responsive, scalable web applications with React, Node.js and MongoDB.",
 
   description:
-    "Software Engineer focused on building scalable web applications using React, Node.js, Express, and MySQL. Passionate about clean architecture, intuitive user experiences, and continuous learning.",
+    "Full stack developer focused on building scalable web applications using React, Node.js, Express, and MySQL. Passionate about clean architecture, intuitive user experiences, and continuous learning.",
 
   location: "Kerala, India",
 

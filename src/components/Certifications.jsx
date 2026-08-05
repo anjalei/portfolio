@@ -5,19 +5,11 @@ const certifications = [
   {
     title: "Full Stack Development Certification",
     organization: "Sharpener Tech",
-    year: "2024", // Change if needed
+    year: "2025", // Change if needed
     description:
-      "Completed an intensive Full Stack Development program covering React, Node.js, Express.js, MySQL, REST APIs, Git, and deployment through hands-on projects.",
+      "An intensive full-stack program covering React, Node.js, Express.js, MySQL, REST APIs, Git, and deployment, including hands-on projects, mock interviews, and placement support.",
     certificate: "#", // Replace with certificate PDF later
-  },
-  {
-    title: "Placement Assistance Program",
-    organization: "Sharpener Tech",
-    year: "2024",
-    description:
-      "Participated in technical interview preparation, mock interviews, resume reviews, problem-solving sessions, and career guidance.",
-    certificate: "#",
-  },
+  }
 ];
 
 const Certifications = () => {
@@ -39,11 +31,11 @@ const Certifications = () => {
             software engineering skills.
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="flex justify-center">
             {certifications.map((item) => (
               <div
                 key={item.title}
-                className="bg-white rounded-2xl shadow-md p-8 hover:shadow-xl transition duration-300"
+                className="bg-white rounded-2xl shadow-md p-8 hover:shadow-xl transition duration-300 w-full max-w-2xl"
               >
                 <h3 className="text-xl font-semibold">{item.title}</h3>
 
