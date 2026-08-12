@@ -17,7 +17,7 @@ const portfolioData = {
 
   linkedin: "https://www.linkedin.com/in/anjalirnair/",
 
-  resume: "/resume.pdf",
+  resume: "/Anjali_R_Nair_FullStack_Developer.pdf",
 
   heroImage: "/images/profile.jpeg",
 };
