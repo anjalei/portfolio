@@ -2,10 +2,28 @@ import Container from "./Container";
 import SectionTitle from "./ui/SectionTitle";
 
 const skills = {
-  Frontend: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
-  Backend: ["Node.js", "Express.js"],
-  Database: ["MySQL", "MongoDB"],
-  Tools: ["Git", "GitHub", "AWS", "Postman", "Jenkins", "Nginx"],
+  Frontend: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+  ],
+  Backend: ["Node.js", "Express.js", "REST APIs"],
+  Database: ["MySQL", "MongoDB", "PostgreSQL", "Sequelize", "Mongoose"],
+  "Authentication & Security": ["JWT", "bcrypt", "RBAC"],
+  "DevOps & Tools": [
+    "AWS",
+    "Jenkins",
+    "Nginx",
+    "PM2",
+    "Git",
+    "GitHub",
+    "Postman",
+  ],
+  Payments: ["Cashfree", "Razorpay"],
 };
 
 const Skills = () => {
@@ -14,7 +32,7 @@ const Skills = () => {
       <Container>
         <SectionTitle subtitle="Skills" title="Tech Stack" />
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {Object.entries(skills).map(([category, items]) => (
             <div
               key={category}

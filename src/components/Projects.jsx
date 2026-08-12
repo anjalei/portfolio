@@ -8,17 +8,28 @@ const Projects = () => {
       <Container>
         <SectionTitle subtitle="Portfolio" title="Featured Projects" />
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <div className="grid md:grid-cols-2 gap-8 mt-12">
           {projects.map((project) => (
             <div
               key={project.id}
               className="bg-white rounded-2xl shadow-md overflow-hidden hover:scale-105 transition-all duration-300"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover"
-              />
+              {project.video ? (
+                <video
+                  src={project.video}
+                  controls
+                  muted
+                  playsInline
+                  preload="metadata"
+                  className="w-full h-48 object-cover bg-black"
+                />
+              ) : (
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-48 object-cover"
+                />
+              )}
 
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
