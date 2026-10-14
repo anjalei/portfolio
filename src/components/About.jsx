@@ -9,18 +9,20 @@ const About = () => {
 
         <div className="max-w-4xl mx-auto">
           <p className="text-lg leading-9 text-gray-600">
-            I'm a full stack developer building production web applications —
-            currently working across 3 CRM portals at Soft7, handling everything
-            from dashboard UI to RBAC authentication to API integration. My
-            stack centers on React, Next.js, and TypeScript on the frontend, and
-            Node.js, Express, and SQL/NoSQL databases on the backend, with
-            hands-on experience deploying to AWS. Outside of work, I enjoy
-            sketching, exploring UI design, and picking up new tools as they
-            come up.
+            I’m a Full Stack Developer at Soft7 Technologies, where I work on a
+            production CRM platform with three connected portals (Super Admin,
+            Admin, and User). I joined as an intern in February 2026 and moved
+            into a full-time role three months later. My day-to-day covers
+            Next.js, React, and TypeScript on the frontend, with Node.js, REST
+            APIs, and PostgreSQL behind them. I enjoy turning complex admin
+            workflows into clean, usable interfaces, and I care about the data
+            underneath them: how APIs are shaped, how metrics are calculated,
+            and how access is secured with JWT and role-based permissions. I
+            work closely with a small engineering team on API design, debugging,
+            and testing, and I help guide teammates on frontend implementation.
+            Outside work, I build full-stack projects involving real-time chat,
+            payments, and cloud deployment on AWS.
           </p>
-
-          
-
         </div>
       </Container>
     </section>
